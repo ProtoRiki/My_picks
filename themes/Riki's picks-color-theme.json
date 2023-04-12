@@ -10,14 +10,19 @@
 		"activityBar.activeFocusBorder": "#ff0000",
 		"activityBarBadge.background": "#4573E8",
 		"sideBarTitle.foreground": "#DCDEE1",
-		"window.activeBorder": "#ff0000"
+		"sideBar.foreground": "#ffffff",
+		"sideBar.background": "#25272A",
+		"statusBar.background": "#2B2D30",
+		"titleBar.activeBackground": "#25272A",
+		"editorGroupHeader.tabsBackground": "#1E1F21"
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -28,10 +33,22 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
+				"variable.parameter",
+				"keyword.operator",
+				"meta.function-call.arguments.python",
+				"variable.parameter.function.language.python"
+			],
+			"settings": {
+				"foreground": "#BCBEC4"
+			}
+		},
+		{
+			"name": "Other constant placeholder",
+			"scope": [
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#56fbbc",
 			}
 		},
 		{
@@ -61,27 +78,35 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#c694e8"
+				"foreground": "#FF4A73"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"constant.language.python"
+			],
+			"settings": {
+				"foreground": "#FF4A73"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#BCBEC4",
 			}
 		},
 		{
@@ -96,16 +121,45 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function",
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#4AB2FF"
+			}
+		},
+		{
+			"name": "Named Parameter",
+			"scope": [
+				"variable.parameter.function-call.python"
+			],
+			"settings": {
+				"foreground": "#ffba65",
+			}
+		},
+		{
+			"name": "Special Method",
+			"scope": [
+				"keyword.other.special-method",
+				"support.variable.magic.python",
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#B200B2",
+			}
+		},
+		{
+			"name": "Special Parameter",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#FF63FF",
 			}
 		},
 		{
@@ -114,7 +168,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#8b2ef5"
 			}
 		},
 		{
@@ -135,12 +189,11 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#32cad7"
 			}
 		},
 		{
@@ -168,11 +221,24 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"meta.function-call.generic.python",
+				"meta.function.parameters.python",
+				"meta.item-access.arguments.python"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#56fbbc"
 			}
+		},
+		{
+			"name": "Builtin Constructors",
+			"scope": [
+				
+			],
+			"settings": {
+				"foreground": "#8888C6",
+			}
+
 		},
 		{
 			"name": "Entity Types",
@@ -180,7 +246,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#56fbbc"
 			}
 		},
 		{
@@ -235,7 +301,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#B200B2"
 			}
 		},
 		{
@@ -441,7 +507,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#eeffff"
 			}
 		},
 		{
