@@ -1,0 +1,21 @@
+{
+  "name": "riki-s-picks",
+  "displayName": "Riki's picks",
+  "description": "Which colors I think look good in a text editor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Riki's picks",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Riki's picks-color-theme.json"
+      }
+    ]
+  }
+}
