@@ -1,16 +1,4 @@
-# riki-s-picks README
+# My own color theme 
+## Inspired by PyCharm's latest UI update
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+One day I won't be able to use PyCharm for free, and I've recently had to use VSCode more often due to its speed when connecting to remote servers (PyCharm's remote extension is painfully slow at the moment). Hence, I might as well make a theme that conforms to my esoteric tastes. This extension is suited for Python, and I'll add in colors for other languages if I find myself using them often enough.
