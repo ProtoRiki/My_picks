@@ -208,7 +208,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#8dd3e8"
+				"foreground": "#9cca87"
 			}
 		},
 		{
@@ -222,12 +222,10 @@
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
 				"support.type.sys-types",
-				"meta.function-call.generic.python",
 				"meta.function.parameters.python",
-				"meta.item-access.arguments.python"
 			],
 			"settings": {
-				"foreground": "#56fbbc"
+				"foreground": "#4fd7a3"
 			}
 		},
 		{
@@ -507,7 +505,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#eeffff"
+				"foreground": "#BCBEC4"
 			}
 		},
 		{
